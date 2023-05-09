@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		58AEFEA62A0A0F6D0034063B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AEFEA52A0A0F6D0034063B /* main.m */; };
+		58AEFEAE2A0A0F900034063B /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AEFEAD2A0A0F900034063B /* ClassA.m */; };
+		58AEFEB12A0A0F9E0034063B /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AEFEB02A0A0F9E0034063B /* ClassB.m */; };
+		58AEFEB42A0A10580034063B /* ClassProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AEFEB32A0A10580034063B /* ClassProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		58AEFEA22A0A0F6D0034063B /* NSProxy测试 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSProxy测试"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AEFEA52A0A0F6D0034063B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58AEFEAC2A0A0F900034063B /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		58AEFEAD2A0A0F900034063B /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		58AEFEAF2A0A0F9E0034063B /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		58AEFEB02A0A0F9E0034063B /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		58AEFEB22A0A10580034063B /* ClassProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassProxy.h; sourceTree = "<group>"; };
+		58AEFEB32A0A10580034063B /* ClassProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				58AEFEA52A0A0F6D0034063B /* main.m */,
+				58AEFEAC2A0A0F900034063B /* ClassA.h */,
+				58AEFEAD2A0A0F900034063B /* ClassA.m */,
+				58AEFEAF2A0A0F9E0034063B /* ClassB.h */,
+				58AEFEB02A0A0F9E0034063B /* ClassB.m */,
+				58AEFEB22A0A10580034063B /* ClassProxy.h */,
+				58AEFEB32A0A10580034063B /* ClassProxy.m */,
 			);
 			path = "NSProxy测试";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58AEFEB12A0A0F9E0034063B /* ClassB.m in Sources */,
+				58AEFEAE2A0A0F900034063B /* ClassA.m in Sources */,
 				58AEFEA62A0A0F6D0034063B /* main.m in Sources */,
+				58AEFEB42A0A10580034063B /* ClassProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
